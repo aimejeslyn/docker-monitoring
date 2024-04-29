@@ -23,7 +23,7 @@ The `docker-compose.yml` file defines the services and their configurations:
 - **Ports:** Exposed on port `9090`
 - **Volumes:** Mounts `./prometheus.yml` from the host to `/etc/prometheus/prometheus.yml` in the container
 - **Command:** Specifies the Prometheus configuration file using `--config.file=/etc/prometheus/prometheus.yml`
-- **Without Command:**  Change volumes to './prometheus.yml:/opt/bitnami/prometheus/conf/prometheus.yml'
+- **Without Command:**  Change volumes to `./prometheus.yml:/opt/bitnami/prometheus/conf/prometheus.yml`
 
 ### Grafana Service
 
